@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#18B4ED"
+    tools:context=".MainActivity" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_button_select"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="消息"
+            android:textColor="@color/text_color" />
+
+        <RadioButton
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:gravity="center"
+            android:text="电话"
+            android:background="@drawable/right_button_select"
+            android:textColor="@color/text_color"
+            />
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        >
+
+        <RadioButton
+            style="@style/bottom_radiobutton"
+            android:drawableTop="@drawable/fka"
+            android:text="广发"
+            />
+
+        <RadioButton
+            style="@style/bottom_radiobutton"
+            android:drawableTop="@drawable/fkl"
+            android:text="工商"
+            />
+
+        <RadioButton
+            style="@style/bottom_radiobutton"
+            android:drawableTop="@drawable/fkn"
+            android:text="农业"
+            />
+
+        <RadioButton
+            style="@style/bottom_radiobutton"
+            android:drawableTop="@drawable/fkq"
+            android:text="招商"
+            />
+    </RadioGroup>
+
+</RelativeLayout>

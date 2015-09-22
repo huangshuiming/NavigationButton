@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <!--  圆角-->
+    <corners 
+        android:topRightRadius="10dp"
+        android:bottomRightRadius="10dp"
+        />
+    
+    <!-- 大小 -->
+    <size
+        android:width="50dp"
+        android:height="20dp"/>
+    
+    <!--填充的颜色  -->
+    <solid
+        android:color="#D0EFFA"/>
+    
+    <!--  边  -->
+    <stroke
+        android:width="0dp"
+        android:color="@android:color/white"
+        android:dashWidth="1dp"
+        android:dashGap="0dp"/> 
+    
+</shape>

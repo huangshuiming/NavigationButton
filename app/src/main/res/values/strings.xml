@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NavigationButton</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <color name="text_selected">#18B4ED</color>
+    <color name="text_normal">#ffffff</color>
+
+    <color name="back_normal">#ffffff</color>
+    <color name="back_checked">#18B4ED</color>
+</resources>
